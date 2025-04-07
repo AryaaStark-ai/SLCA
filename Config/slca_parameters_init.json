@@ -1,0 +1,33 @@
+{
+"0": {
+    "leak": 0.256, 
+    "competition": 0.5, 
+    "self_excit": 0.37, 
+    "w_input": 0.64, 
+    "w_cross": 0.097, 
+    "offset": 0.31, 
+    "noise_sd": 1.043, 
+    "threshold_change": 0.465
+    },
+"1": {
+    "leak": 0.256, 
+    "competition": 0.9, 
+    "self_excit": 0.25, 
+    "w_input": 0.1, 
+    "w_cross": 0.097, 
+    "offset": 0.31, 
+    "noise_sd": 2.0, 
+    "threshold_change": 0.465
+    }, 
+"2": {
+    "dt_t": 0.01,
+    "leak": 0.256, 
+    "competition": 0.8, 
+    "self_excit": 0.25, 
+    "w_input": 0.1, 
+    "w_cross": 0.097, 
+    "offset": 0.31, 
+    "noise_sd": 4.0, 
+    "threshold_change": 0.2
+    }
+}

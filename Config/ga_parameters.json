@@ -1,0 +1,19 @@
+{
+"n_generations": 100,
+"gen_size": 3,
+"model_type": "local",
+"participants": [],
+"metrics": 
+    {
+    "spatial":
+        {
+        "raw": [],
+        "sal": []
+        },
+    "temporal":
+        {
+        "all": [],
+        "ind": ["ks"]
+        }
+    }
+}
