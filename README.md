@@ -1,73 +1,76 @@
-# 🌍 Life Expectancy Prediction App
-
-A web application that predicts life expectancy based on demographic and health-related factors using machine learning.
-
----
-
-## 🚀 Features
-
-- Predicts life expectancy using user-provided inputs
-- Intuitive and responsive form layout
-- Tooltips (`ℹ️`) for field descriptions
-- Clean and modern UI with a two-column input grid
-- Displays predictions in a well-styled result table
-
----
-
-## 🧠 Machine Learning Model
-
-The app uses a pre-trained machine learning model trained on WHO and UN datasets containing:
-
-- Demographic data
-- Healthcare statistics
-- Socioeconomic indicators
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** HTML, CSS, Jinja2 (Flask templates)
-- **Backend:** Python, Flask
-- **ML Model:** Pickle, Scikit-learn
-- **Styling:** Custom CSS (Responsive Grid)
-
----
-
-## 📦 Project Structure
 
 
+# SLCA Model: Simulating Human Visual Perception and Eye-Tracking
 
+## 📘 Overview
 
+This project explores the **Spatial Leaky Competing Accumulator (SLCA)** model, an extension of Usher and McClelland’s 2001 Leaky Competing Accumulator framework. The SLCA integrates key cognitive functions—like information leakage, recurrent self-excitation, nonlinear dynamics, and random noise—to simulate human gaze behavior and perceptual decision-making.
 
+## 🎯 Objectives
 
+- Recreate brain activity during visual tasks using computational models.
+- Simulate **eye-tracking behavior** using SLCA dynamics.
+- Analyze and visualize the impact of spatial attention mechanisms on gaze patterns.
 
----
+## 🧠 Background
 
-## 🖥️ How to Run Locally
+The SLCA model combines neuroscientific insights with computational modeling to understand **visual perception**. It is designed to account for:
 
-### 1. Clone the Repository
+- **Leaky accumulation** of visual input
+- **Self-reinforcing attention** toward specific spatial regions
+- **Stochasticity** in gaze patterns
+- **Non-linear decision thresholds**
 
+These features allow SLCA to mimic observed human eye-tracking data with high fidelity.
+
+## 🧰 Features
+
+- Visual input grid to simulate spatial attention
+- Adjustable parameters for leak rate, excitation, and noise
+- Realistic simulation of human gaze shifts
+- Graphs and animations for visualizing results
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/life-expectancy-prediction.git
-cd life-expectancy-prediction
+git clone https://github.com/your-username/slca-vision-model.git
+cd slca-vision-model
+```
 
-
-Create Virtual Environment
-
-python -m venv venv
-source venv/bin/activate  # For Linux/macOS
-venv\Scripts\activate     # For Windows
-
-
-Install Dependencies
-
+### 2. Install requirements
+```bash
 pip install -r requirements.txt
+```
 
- Run the App
-
-python app.py
-
-
-
+### 3. Run the model
+```bash
+python simulate_slca.py
+```
 
 
+## 📂 Folder Structure
+
+```
+📁 slca-vision-model/
+│
+├── simulate_slca.py         # Main simulation script
+├── models/                  # SLCA model code
+├── plots/                   # Visual output
+├── data/                    # Input configuration (optional)
+├── README.md
+└── requirements.txt
+```
+
+## 📚 References
+
+- Usher & McClelland (2001). The Leaky Competing Accumulator model.
+- Zemliak (2022). Advances in computational models of visual perception.
+
+## ✨ Future Work
+
+- Integrate with real-time eye-tracking datasets
+- Add GUI for interactive simulation control
+- Compare SLCA with other perceptual models
+
+---
