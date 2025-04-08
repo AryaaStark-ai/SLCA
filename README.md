@@ -1,71 +1,73 @@
+# 🌍 Life Expectancy Prediction App
+
+A web application that predicts life expectancy based on demographic and health-related factors using machine learning.
+
+---
+
+## 🚀 Features
+
+- Predicts life expectancy using user-provided inputs
+- Intuitive and responsive form layout
+- Tooltips (`ℹ️`) for field descriptions
+- Clean and modern UI with a two-column input grid
+- Displays predictions in a well-styled result table
+
+---
+
+## 🧠 Machine Learning Model
+
+The app uses a pre-trained machine learning model trained on WHO and UN datasets containing:
+
+- Demographic data
+- Healthcare statistics
+- Socioeconomic indicators
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, Jinja2 (Flask templates)
+- **Backend:** Python, Flask
+- **ML Model:** Pickle, Scikit-learn
+- **Styling:** Custom CSS (Responsive Grid)
+
+---
+
+## 📦 Project Structure
+
+
+
+
+
 
 
 ---
 
-#  Enhanced Life Expectancy Prediction Tool
+## 🖥️ How to Run Locally
 
-##  Project Overview
+### 1. Clone the Repository
 
-The **Enhanced Life Expectancy Prediction Tool** is a comprehensive end-to-end machine learning application designed to predict life expectancy based on a wide range of **socioeconomic, medical, and demographic** factors. It showcases practical experience in data science, model development, software testing, and full-stack deployment.
-
-This interactive web application is built to assist **government agencies** and **healthcare providers** in making informed, evidence-based decisions regarding public health strategies and resource allocation.
-
----
-
-## 🚀 Key Features
-
-- ⚙️ **Advanced Machine Learning Model**:  
-  Utilizes a **neural network** trained on an enriched dataset with features like **GDP**, **immunization rates**, and other key indicators.
-
-- 📊 **Data Preprocessing**:  
-  Employs sophisticated techniques including:
-  - **Robust Scaling**
-  - **K-Nearest Neighbors (KNN) Imputation**
-  - Handling heterogeneous datasets
-
-- 🧩 **Web Application Deployment**:  
-  Built using **Flask**, providing an intuitive and interactive interface for users to input data and view predictions.
-
-- 🔐 **Ethical and Compliant**:  
-  Designed with ethical considerations to avoid bias and ensure **data privacy compliance**.
-
----
-
-## 🧠 Skills & Technologies Demonstrated
-
-- Data preprocessing and feature engineering
-- Neural network model development and evaluation
-- Full-stack development using **Flask**
-- Integration of machine learning models into production-ready systems
-
----
-
-## 🛠️ Tools & Technologies Used
-
-- **Python**, **Flask**
-- **Scikit-learn**, **Keras/TensorFlow**
-- **Pandas**, **NumPy**
-- **Matplotlib**, **Seaborn** (for data visualization)
+```bash
+git clone https://github.com/yourusername/life-expectancy-prediction.git
+cd life-expectancy-prediction
 
 
----
+Create Virtual Environment
 
-## 🎯 Purpose & Impact
+python -m venv venv
+source venv/bin/activate  # For Linux/macOS
+venv\Scripts\activate     # For Windows
 
-The application serves as a **globally scalable**, **robust tool** to aid in:
-- Predictive analysis of population health
-- Planning and policy-making
-- Allocation of healthcare resources
 
-It validates the ability to handle complex datasets and implement machine learning pipelines effectively, a core requirement for developing advanced tools such as log triaging systems.
+Install Dependencies
 
----
+pip install -r requirements.txt
 
-## 📎 Future Enhancements
+ Run the App
 
-- API integration for real-time data updates
-- User authentication and data storage
-- Model explainability using SHAP/LIME
-- Improved UI/UX with frontend frameworks
+python app.py
 
----
+
+
+
+
